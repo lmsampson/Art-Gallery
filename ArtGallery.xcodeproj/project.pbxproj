@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		469AAC42210258C200C0D421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AAC41210258C200C0D421 /* AppDelegate.swift */; };
-		469AAC44210258C200C0D421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AAC43210258C200C0D421 /* ViewController.swift */; };
 		469AAC47210258C200C0D421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469AAC45210258C200C0D421 /* Main.storyboard */; };
 		469AAC49210258C300C0D421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469AAC48210258C300C0D421 /* Assets.xcassets */; };
 		469AAC4C210258C300C0D421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469AAC4A210258C300C0D421 /* LaunchScreen.storyboard */; };
+		FF65F6C921090A4E007758E1 /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65F6C821090A4E007758E1 /* Painting.swift */; };
+		FF65F6CB21090BDC007758E1 /* PaintingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65F6CA21090BDC007758E1 /* PaintingController.swift */; };
+		FF65F6CD210921FD007758E1 /* PaintingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65F6CC210921FD007758E1 /* PaintingTableViewCell.swift */; };
+		FF65F6CF210928AA007758E1 /* PaintingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65F6CE210928AA007758E1 /* PaintingListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		469AAC3E210258C200C0D421 /* ArtGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		469AAC41210258C200C0D421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		469AAC43210258C200C0D421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		469AAC46210258C200C0D421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		469AAC48210258C300C0D421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		469AAC4B210258C300C0D421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		469AAC4D210258C300C0D421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF65F6C821090A4E007758E1 /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		FF65F6CA21090BDC007758E1 /* PaintingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingController.swift; sourceTree = "<group>"; };
+		FF65F6CC210921FD007758E1 /* PaintingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCell.swift; sourceTree = "<group>"; };
+		FF65F6CE210928AA007758E1 /* PaintingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		469AAC40210258C200C0D421 /* ArtGallery */ = {
 			isa = PBXGroup;
 			children = (
+				FF65F6C821090A4E007758E1 /* Painting.swift */,
+				FF65F6CA21090BDC007758E1 /* PaintingController.swift */,
 				469AAC41210258C200C0D421 /* AppDelegate.swift */,
-				469AAC43210258C200C0D421 /* ViewController.swift */,
 				469AAC45210258C200C0D421 /* Main.storyboard */,
+				FF65F6CC210921FD007758E1 /* PaintingTableViewCell.swift */,
+				FF65F6CE210928AA007758E1 /* PaintingListViewController.swift */,
 				469AAC48210258C300C0D421 /* Assets.xcassets */,
 				469AAC4A210258C300C0D421 /* LaunchScreen.storyboard */,
 				469AAC4D210258C300C0D421 /* Info.plist */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				469AAC44210258C200C0D421 /* ViewController.swift in Sources */,
+				FF65F6CF210928AA007758E1 /* PaintingListViewController.swift in Sources */,
+				FF65F6C921090A4E007758E1 /* Painting.swift in Sources */,
+				FF65F6CB21090BDC007758E1 /* PaintingController.swift in Sources */,
 				469AAC42210258C200C0D421 /* AppDelegate.swift in Sources */,
+				FF65F6CD210921FD007758E1 /* PaintingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
